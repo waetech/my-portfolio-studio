@@ -11,6 +11,7 @@ body {
 h1, h2, h3{
     font-size: 36px;
     color:#494964;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -293,6 +294,107 @@ nav {
 }
 
 .comment-text p {
+    align-items: center;
+
+}
+
+.comment-section-2{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    min-height: 50vh;
+    align-items: center;
+    background: lightblue;
+}
+
+.comment-section-2 .comment-text-2 {
+    margin-left: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.comment-text-2 h1{
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.comment-text-2 p {
+    align-items: center;
+
+}
+
+.cta-skills{
+    border: 2px solid #c36cbb;
+    background: transparent;
+    color: #c36cbb;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.skills-section {
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.skills {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.skills-text{
+    font-size: 24px;
+}
+
+.skills-text h1 {
+    font-size: 36px;
+}
+
+.skills-image img {
+    flex: 1;
+    display: flex;
+    height: 30vh;
+    margin-top: 50px;
+    
+}
+
+.skills h3 {
+    margin-top: 30px;
+}
+
+.skills p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.about-page-section{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    min-height: 50vh;
+    align-items: center;
+    background: lightblue;
+}
+
+.about-page-section .about-page-text {
+    margin-left: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.about-page-text h1{
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.about-page-text p {
     align-items: center;
 
 }
